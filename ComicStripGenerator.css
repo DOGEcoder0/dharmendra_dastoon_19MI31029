@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+  
+.App {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+form {
+    display: grid;
+    gap: 10px;
+}
+  
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.comicDisplay {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.panel {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+  
